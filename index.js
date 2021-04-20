@@ -1,9 +1,15 @@
+
 function openAlert() {
-  // Zaimplementuj zadanie zgodnie z wytycznymi
+  window.alert("super");
 };
 
+
 function createButton() {
-  // Zaimplementuj zadanie zgodnie z wytycznymi
+  var button = document.createElement("button");
+  button.setAttribute("id", "super-button");
+  document.body.appendChild(button);
+  button.addEventListener("click", openAlert);
+  return button;
 };
 
 module.exports = {

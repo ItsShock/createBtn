@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" time="2.55">
+  <testsuite name="Funkcja createButton" errors="0" failures="0" skipped="0" timestamp="2021-04-20T17:28:45" time="1.475" tests="5">
+    <testcase classname="Funkcja createButton powinna zwrócić element HTML" name="Funkcja createButton powinna zwrócić element HTML" time="0.004">
+    </testcase>
+    <testcase classname="Funkcja createButton powinna zwrócić element z atrybutem id ustawionym na super-button" name="Funkcja createButton powinna zwrócić element z atrybutem id ustawionym na super-button" time="0.001">
+    </testcase>
+    <testcase classname="Funkcja createButton powinna utworzyć element super-button w elemencie &lt;body&gt;" name="Funkcja createButton powinna utworzyć element super-button w elemencie &lt;body&gt;" time="0.006">
+    </testcase>
+    <testcase classname="Funkcja createButton powinna wywołać funkcję openAlert gdy element #super-button został kliknięty" name="Funkcja createButton powinna wywołać funkcję openAlert gdy element #super-button został kliknięty" time="0.002">
+    </testcase>
+    <testcase classname="Funkcja openAlert powinna wywołać window.alert z ciągiem znaków &quot;super&quot;" name="Funkcja openAlert powinna wywołać window.alert z ciągiem znaków &quot;super&quot;" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
